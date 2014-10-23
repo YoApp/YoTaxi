@@ -1,8 +1,8 @@
 from yotaxi import app
 from flask import request, render_template
+from API_KEY import api_token
 import requests
 
-api_token = "34a169d2-00f8-4b6f-acb3-90df765a1cfd"
 YO_API = "https://api.justyo.co/yo/"
 
 
