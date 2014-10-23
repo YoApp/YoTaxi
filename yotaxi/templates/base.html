@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>YoTaxi</title>
+<link rel="shortcut icon" href="https://yoapp.s3.amazonaws.com/yo/favicon.ico">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat:700,400">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat:700,400">
+<meta charset="UTF-8">
+<meta name="description" content="Yo for the number of nearest taxi stand">
+<meta name="keywords" content="Yo, YoTaxi, YOTAXISTAND">
+<meta name="author" content="Nauman Ahmad">
+<meta name="author-email" content="nauman-ahmad@outlook.com">
+<meta name="github" content="http://github.com/itsnauman/yotaxi">
+<style type="text/css">
+body {
+    background:  repeat #9B59B6;
+    font-family: 'Montserrat', arial, sans-serif;
+    color: white;
+    text-rendering: optimizeLegibility;
+    font-weight: 700;
+}
+.header {
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
+h1 {
+    font-size: 200px;
+    text-rendering: optimizeLegibility;
+}
+.footer {
+    height:50px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-top: 100px;
+    font-size : 30px; 
+    text-align : left; 
+    padding: 1% 0;
+    text-rendering: optimizeLegibility;
+}
+#no_result {
+    font-size: 50px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
+#info {
+    font-size: 50px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
+#list {
+    font-size: 30px;
+    padding-left: 100px;
+    text-rendering: optimizeLegibility;
+}
+#res {
+    font-size: 60px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
+a:link {color:white;}      /* unvisited link */
+a:visited {color:white;}  /* visited link */
+a:hover {color:white;}  /* mouse over link */
+a:active {color:white;}  /* selected link */
+</style>
+</head>
+<body>
+<div class="header">{% block header %}{% endblock %}</div>
+<div class="content">{% block content %}{% endblock %}</div>
+<div class="footer">
+<footer>
+<p>Built by <a id="link" href="http://twitter.com/itsnauman">@itsnauman</a> using Yo & Google Places API</p>
+</footer>
+</div>
+</body>
+</html>
